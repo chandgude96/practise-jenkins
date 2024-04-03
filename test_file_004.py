@@ -8,4 +8,15 @@ class Test_credence:
             assert True
         else:
             assert False
+            class Test_credence:
+                
+    def test_sub_002(self):
+        a = 50
+        b = 10
+        sub = a - b
+        print("the sub of a and b is:",sub)
+        if sub == 40:
+            assert True
+        else:
+            assert False
 
